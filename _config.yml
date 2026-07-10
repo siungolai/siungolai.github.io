@@ -1,0 +1,21 @@
+title: siungolai's Blog
+email: your-email@example.com
+description: >-
+  欢迎来到我的博客，这里记录技术学习与生活点滴。
+baseurl: ""
+url: "https://siungolai.github.io"
+github_username: siungolai
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .bundle/
+  - README.md
